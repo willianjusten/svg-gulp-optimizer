@@ -1,6 +1,6 @@
-## SVG Grunt Optimizer 
+## SVG Gulp Optimizer 
 
-Some tests to optimize svg using Grunt, svgo, svg2png and grunt-svgstore.
+Some tests to optimize svg using Gulp, svgo, gulp-svgfallback and gulp-svgstore.
 
 ## Getting Started
 
@@ -9,11 +9,11 @@ Some tests to optimize svg using Grunt, svgo, svg2png and grunt-svgstore.
 First of all, install the dependencies to run this boilerplate.
 
 - [NodeJS](http://nodejs.org/)
-- [GruntJs](http://gruntjs.com/)
+- [GulpJs](http://gulpjs.com/)
 
 ```sh
 # Clone this repository
-$ git clone git://github.com/willianjusten/svg-grunt-optimizer.git new_project
+$ git clone git://github.com/willianjusten/svg-gulp-optimizer.git new_project
 $ cd new_project
 
 # install dependencies
@@ -35,17 +35,17 @@ new_project -
     /png
         png generated for fallback
     .gitignore
-    Gruntfile.js
+    Gulpfile.js
     package.json
     Readme.md
 ```
 
 ### Tasks
 
-- `grunt`: optimize, create defs and generate png.
-- `grunt shell`: optimize svg.
-- `grunt svgstore`: create defs file.
-- `grunt svg2png`: generate png files.
+- `gulp`: optimize, create defs and generate png.
+- `gulp shell`: optimize svg.
+- `gulp svgstore`: create defs file.
+- `gulp svgfallback`: generate png files.
 
 ### License
 
