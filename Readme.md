@@ -10,6 +10,7 @@ First of all, install the dependencies to run this boilerplate.
 
 - [NodeJS](http://nodejs.org/)
 - [GulpJs](http://gulpjs.com/)
+- npm install -g svgo
 
 ```sh
 # Clone this repository
